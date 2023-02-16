@@ -147,6 +147,8 @@ exclude:
   - tmp
   - vendor
   - markdown_generator/
+  - talkmap # Remove this is you want talkmap in the future
+  - _pages/talk # Remove this to add talks in the future
 keep_files:
   - .git
   - .svn

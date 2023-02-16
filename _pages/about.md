@@ -12,4 +12,14 @@ I am a 3rd year PhD student in the Algorithms, Combinatorics & Optimization (ACO
 
 I am very fortunate to be supported for 3 years of my PhD by the NSF Graduate Research Fellowship Program (GRFP) under Grant No. DGE1745016 and DGE2140739. 
 
-In my free time, I am passionate about rock climbing and cooking. I also recently began fostering cats! 
+In my free time, I am passionate about rock climbing and cooking. I also recently began fostering cats!
+
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
+{% endif %}
+
+{% if author.email %}
+### Contact:
+
+{{ author.email }}
+{% endif %}
