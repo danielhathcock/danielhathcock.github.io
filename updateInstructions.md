@@ -1,0 +1,4 @@
+- Make changes
+- Run `bundle update --all`
+- Run `bundle exec jekyll serve` to test
+- commit and push
