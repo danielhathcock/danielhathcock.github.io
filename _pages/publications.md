@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Publications"
+title: ""
 permalink: /publications/
 author_profile: true
 ---
@@ -11,10 +11,23 @@ author_profile: true
 
 {% include base_path %}
 
-{% for pub in site.publications reversed %}
+# Preprints
+
+{% for pub in site.preprints reversed %}
 __{{pub.title}}__\
-with {{pub.authors}}.\
+<span style="color:#888888;">with {{pub.authors}}.</span>\
 {{pub.venue}}
 {% if pub.link %} <a href="{{ pub.link }}"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a> {%- endif -%}
 {% if pub.fileurl %} <a href="{{ pub.fileurl }}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i></a> {% endif %}
 {% endfor %}
+
+# Publications
+
+{% for pub in site.publications reversed %}
+__{{pub.title}}__\
+<span style="color:#888888;">with {{pub.authors}}.</span>\
+{{pub.venue}}
+{% if pub.link %} <a href="{{ pub.link }}"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a> {%- endif -%}
+{% if pub.fileurl %} <a href="{{ pub.fileurl }}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i></a> {% endif %}
+{% endfor %}
+
