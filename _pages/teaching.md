@@ -8,6 +8,7 @@ author_profile: true
 {% include base_path %}
 
 ## Teaching Assistant Roles
+  - Network Optimization 1 (47-835) grader, Fall 2024, CMU
   - Network Optimization 1 (47-835) grader, Fall 2023, CMU
   - Concepts of Mathematics (21‑127), Summer 2021, CMU
   - Discrete Mathematics (21‑228), Spring 2021, CMU
