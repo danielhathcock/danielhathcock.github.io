@@ -14,11 +14,11 @@ GEM
       mutex_m
       securerandom (>= 0.3)
       tzinfo (~> 2.0)
-    addressable (2.8.9)
+    addressable (2.9.0)
       public_suffix (>= 2.0.2, < 8.0)
     base64 (0.2.0)
     benchmark (0.5.0)
-    bigdecimal (4.0.1)
+    bigdecimal (4.1.2)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -39,13 +39,13 @@ GEM
       ffi (>= 1.15.0)
       logger
     eventmachine (1.2.7)
-    execjs (2.10.0)
+    execjs (2.10.1)
     faraday (2.8.1)
       base64
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.2)
-    ffi (1.17.3)
+    ffi (1.17.4)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
     github-pages (231)
